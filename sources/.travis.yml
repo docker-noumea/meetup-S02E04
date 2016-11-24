@@ -1,0 +1,17 @@
+language: csharp
+dist: trusty
+sudo: required
+mono: none
+dotnet: 1.0.0-preview2-003131
+services:
+  - docker
+before_install:  
+    - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+script:
+  - cd app
+  # Build container and app
+  - docker build --no-cache -t jchable/aspnetcoredemo .
+  # Tag the build
+  - docker tag jchable/aspnetcoredemo:latest jchable/aspnetcoredemo:v1
+  # Push the image to the Docker Hub repository
+  - docker push jchable/aspnetcoredemo:latest

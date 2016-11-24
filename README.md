@@ -1,1 +1,5 @@
-# meetup-S02E04
+# Session : Accélérer vos développements d’applications avec Docker et les conteneurs Windows Server
+
+Speaker : Julien Chable, société NC IT, consultant depuis plus de 10 ans dans les nouvelles technologies, Most Valuable Professional SharePoint Server depuis 2007, je focalise mon activité sur les portails d’entreprises, les méthodes de production des logiciels, les architectures micro services et les usages mobiles. Responsable technique chez NC IT (www.ncit.nc), nous nous engageons à apporter toujours plus d’innovations et de valeur ajoutée à nos clients Calédoniens.
+
+Les applications évoluent et Docker est aujourd’hui l’acteur qui pilote le mouvement de containarization des applications. Les conteneurs logiciels fournissent un moyen de déployer efficacement des architectures micro services et d’empaqueter les applications existantes. Cette session a pour objectif de montrer comment Docker et Windows Server peuvent vous aider à délivrer vos applications plus rapidement, de façon continue, et de retrouver votre liberté d’utiliser n’importe quel fournisseur ou plateforme pour vos déploiements
